@@ -7,32 +7,91 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;
+    text-align: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejercicioDos {
+    display: none;
+}
 
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
+#ejercicioTres {
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
 
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
+#ejercicioCuatro {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
+#ejercicioCinco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 
 
 /* Ejercicio 6. */
+#ejercicioCinco {
+    flex-direction: row-reverse;
+    
+}
+
+/* Ejercicio 7. */
+#ejercicioSiete { /*Si o si debo escribir esto par poder controlar los demas elementos*/
+    /*display: flex;*/
+    flex-direction: column;
+    align-self: space-between;
+}
+#elementoUno {
+    align-self: flex-start;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+#elementoDos {
+    align-self: flex-end;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    justify-content: center;
+}
+#elementoTres {
+    align-self:flex-start;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    justify-content: center;
+}
+#elementoCuatro {
+    align-self:flex-end;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    justify-content: center;
+}
